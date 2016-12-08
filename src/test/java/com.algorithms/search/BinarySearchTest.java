@@ -30,14 +30,14 @@ public class BinarySearchTest {
     }
 
     @Test
-    public void test_easyList (){
+    public void test_SimpleList (){
         int [] list = {1,2,3,4,5,6,7,8};
         int result = binarySearch.getPositionWithBinarySearch(list, 3);
         Assert.assertEquals(2, result);
     }
 
     @Test
-    public void test_difficultList (){
+    public void test_ComplexList (){
         int [] list = {-40,-30,-23,4,12,35,57,58};
         int result = binarySearch.getPositionWithBinarySearch(list, 4);
         Assert.assertEquals(3, result);
