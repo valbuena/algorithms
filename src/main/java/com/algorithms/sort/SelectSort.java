@@ -3,6 +3,12 @@ package com.algorithms.sort;
 public class SelectSort {
 
     public int[] selectSort (int [] unsorted) {
+        if (unsorted == null || unsorted.length == 0)
+            return new int[]{};
+
+        if (unsorted.length == 1)
+            return unsorted;
+
         int[] result = new int[unsorted.length];
         for (int i = 0; i < result.length; i++) {
             int positionSmaller = getPositionSmaller(unsorted);
@@ -13,7 +19,7 @@ public class SelectSort {
     }
 
     private int getPositionSmaller(int [] list){
-        int result = 0 ;
+        int result = 0;
         int small = list[0];
         for (int i = 0; i < list.length; i++) {
             if (small > list[i]){
