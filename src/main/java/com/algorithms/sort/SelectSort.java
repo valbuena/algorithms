@@ -1,5 +1,11 @@
 package com.algorithms.sort;
 
+/**
+ * Select sort,
+ * Scanning the array every time to find out the smallest element
+ * O(n) = n^2
+ */
+
 public class SelectSort {
 
     public int[] selectSort (int [] unsorted) {

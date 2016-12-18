@@ -3,6 +3,7 @@ package com.algorithms.search;
 /**
  * Given a sort int array, we search an int.
  * We have to divide the array at the middle several times to find the number
+ * O(n) = log n
  */
 public class BinarySearch {
 
