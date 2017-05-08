@@ -1,5 +1,6 @@
-package com.algorithms.search;
+package graph;
 
+import com.algorithms.graph.DijkstrasAlgorithm;
 import org.junit.Assert;
 import org.junit.Test;
 

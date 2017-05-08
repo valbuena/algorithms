@@ -1,4 +1,4 @@
-package com.algorithms.search;
+package com.algorithms.graph;
 
 import java.util.*;
 

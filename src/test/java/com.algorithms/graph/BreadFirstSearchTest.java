@@ -1,6 +1,7 @@
-package com.algorithms.search;
+package graph;
 
 
+import com.algorithms.graph.BreadthFirstSearch;
 import org.junit.Assert;
 import org.junit.Test;
 
