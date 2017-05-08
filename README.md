@@ -1,6 +1,6 @@
 # Algorithms
-##Search:
-###Binary Search:  
+## Search:
+### Binary Search:  
 
 >O(n) = log n
 
@@ -11,7 +11,7 @@
  - if X < Y  we go on our search in first array
  - Repeat recursively
 
-###Breadth First Search
+### Breadth First Search
 
  Given a graph of type tree and we search an element X
  - Put first level in a FIFO
@@ -22,7 +22,7 @@
  - If it is not a tree we have to avoid cycles with some control
 
 
-###Dijkstra's
+### Dijkstra's
  
 Given a weighted graph without cycles and negative values
  - Create tables to store: graph, costs by node (initialize how long it takes to get this node since the start), parents by node (initialize start node)
@@ -34,15 +34,15 @@ Given a weighted graph without cycles and negative values
 
 
 
-##Sort:
-###Select Sort: 
+## Sort:
+### Select Sort: 
 >O(n) = n^2
 
 Given a unsorted array of elements.
  - Scanning the array every time to find out the smallest element
  - Repeat recursively
 
-###Quick Sort: 
+### Quick Sort: 
 >O(n) = n log n
 
  Given a unsorted array of elements.
